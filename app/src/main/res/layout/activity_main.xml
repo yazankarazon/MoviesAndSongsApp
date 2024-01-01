@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Movies"
+        android:layout_width="195dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="192dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:onClick="Movies"
+        android:text="@string/movies"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Songs"
+        android:layout_width="195dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="320dp"
+        android:backgroundTint="#00ACC1"
+        android:onClick="Songs"
+        android:text="@string/songs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Logout"
+        android:layout_width="311dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="516dp"
+        android:backgroundTint="#E53935"
+        android:onClick="Logout"
+        android:text="@string/logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Profile"
+        android:layout_width="195dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="68dp"
+        android:onClick="btnProfile"
+        android:text="@string/profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

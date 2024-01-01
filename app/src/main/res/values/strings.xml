@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MoviesAndSongsApp</string>
+    <string name="movies">Movies</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="songs">Songs</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="login">Login</string>
+    <string name="user_namel">User Namel</string>
+    <string name="user_name">User Name</string>
+    <string name="enter_your_user_name">Enter Your User Name</string>
+    <string name="remember_me">Remember Me</string>
+</resources>
